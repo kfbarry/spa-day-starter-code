@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8"/>
+    <link href="../static/css/styles.css" th:href="@{/css/styles.css}" rel="stylesheet" />
+    <title>New User Form</title>
+</head>
+<body>
+
+<form method="post">
+    <input type="text" name="username">Enter your Name</input> </br>
+    <input type="email" name="email">Enter your Email</input> </br>
+    <input type="password" name="password">Enter your Password</input> </br>
+    <input type="password" name="verify">Verify your Password</input> </br>
+    <input type="submit">Submit!</input>
+</form>
+
+</body>
+</html>
